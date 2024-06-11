@@ -1,16 +1,38 @@
-# simple_movie_app
+# Simple Movie App
 
-A new Flutter project.
+A Flutter application that displays a list of movies and series, allowing users to filter by category and search for specific titles.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Installation
 
-A few resources to get you started if this is your first Flutter project:
+- Integrate Flutter SDK with your IDE.
+- Clone the project to your local machine via SSH:
+  - Navigate to your desired folder.
+  - Open the terminal.
+  - Enter `git clone git@github.com:artprasetya/simple_movie_app.git`.
+- Open your IDE and select the `simple_movie_app` folder.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Running
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Execute `flutter run` in your terminal.
+
+## Features
+
+- Displays a list of movies and series.
+- Allows filtering by category.
+- Provides search functionality for specific titles.
+
+## Requirements
+
+- Flutter SDK
+- [The Movie DB API](https://api.themoviedb.org/) to provide Movie data
+- [http](https://pub.dev/packages/http) package for HTTP requests
+- [provider](https://pub.dev/packages/provider) package for state management
+
+## Building the App
+
+To build:
+
+- Run `flutter build apk --debug` in your terminal for the debug version.
+- For the release version, use `flutter build`.
